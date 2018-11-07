@@ -1,5 +1,5 @@
 {
-  "name": "utp-native-no-prebuild",
+  "name": "utp-native-nodejs-mobile",
   "version": "2.1.4-0",
   "description": "Native bindings for libutp",
   "main": "index.js",
@@ -34,12 +34,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/staltz/utp-native-no-prebuild.git"
+    "url": "git+https://github.com/staltz/utp-native-nodejs-mobile.git"
   },
-  "author": "Mathias Buus (@mafintosh)",
+  "author": "Andre Staltz (@staltz)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/staltz/utp-native-no-prebuild/issues"
+    "url": "https://github.com/staltz/utp-native-nodejs-mobile/issues"
   },
-  "homepage": "https://github.com/staltz/utp-native-no-prebuild#readme"
+  "homepage": "https://github.com/staltz/utp-native-nodejs-mobile#readme"
 }
