@@ -5,7 +5,7 @@
       'deps/libutp.gyp:libutp',
     ],
     "include_dirs": [
-      "<!(node -e \"require('napi-macros-nodejs-mobile')\")",
+      "<!(node -e \"require('napi-macros')\")",
       "deps/libutp",
     ],
     "sources": [
