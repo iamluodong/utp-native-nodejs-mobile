@@ -5,8 +5,8 @@
   "main": "index.js",
   "gypfile": true,
   "scripts": {
-    "test-timeouts": "tape test/timeouts.js",
-    "test": "standard && tape test/net.js test/sockets.js",
+    "_test-timeouts": "tape test/timeouts.js",
+    "_test": "standard && tape test/net.js test/sockets.js",
     "fetch-libutp": "git submodule update --recursive --init",
     "prebuild": "prebuild --napi --all --strip --verbose",
     "install": "prebuild-install || node-gyp rebuild",
